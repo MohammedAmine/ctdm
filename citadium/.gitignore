@@ -1,0 +1,5 @@
+# Ignored when using Git
+
+node_modules/
+platforms/
+plugins/
