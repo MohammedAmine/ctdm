@@ -9,13 +9,10 @@ angular.module('citadium', ['ionic'])
       templateUrl: 'views/home/home.html',
       controller: 'HomeCtrl'
     });
-
     $urlRouterProvider.otherwise('/');
-
 })
 
-.run(function ($ionicPlatform) {
- 
+.run(function ($ionicPlatform) { 
   $ionicPlatform.ready(function() {
     
 	    if(window.cordova && window.cordova.plugins.Keyboard) {
@@ -28,7 +25,6 @@ angular.module('citadium', ['ionic'])
 })
 
 .controller('NavbarCtrl', function($scope) {
-
   $scope.openMenu = function () {
     $ionicSideMenuDelegate.toggleLeft();
   };

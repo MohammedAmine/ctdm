@@ -1,7 +1,6 @@
-angular.module('citadium').controller('HomeCtrl', 
-
+angular.module('citadium').controller('HomeCtrl',
 	function($scope) {
-
+		// TO DO
 	}
 );
 
