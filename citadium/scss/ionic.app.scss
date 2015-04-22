@@ -19,7 +19,10 @@ $dark:                            #444 !default;
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
 // Override ionic variables here (example : $dark)
+
 $dark:                            #000 !default;
+
+// (End) Override ionic variables here
 
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
