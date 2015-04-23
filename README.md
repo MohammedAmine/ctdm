@@ -35,6 +35,10 @@ C:\...\ctdm> ionic serve
 
 ##Visitez : 
         
+<<<<<<< HEAD
         http://mohammedamine.github.io/ctdm  
+=======
+        http://mohammedamine.github.io/pfe  
+>>>>>>> origin/master
 
         https://github.com/driftyco/ionic
